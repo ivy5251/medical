@@ -31,7 +31,7 @@ extra:
   generator: false
 
 nav:
- - 首頁: index.md
+  - 首頁: index.md
   - 感染科: infectious/
   - 心臟內科: cardiology/
   - 腎臟科: nephrology/
