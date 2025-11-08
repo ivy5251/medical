@@ -31,8 +31,9 @@ extra:
   generator: false
 
 nav:
-  - 首頁: index.md
-  - 速查表:
-      - 抗生素速查: infectious/abx-guide.md
-      - 心房顫動: cardiology/af.md
+ - 首頁: index.md
+  - 感染科: infectious/
+  - 心臟內科: cardiology/
+  - 腎臟科: nephrology/
+  - 神經科: neuro/
   - 關於: about.md
