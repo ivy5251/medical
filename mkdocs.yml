@@ -9,6 +9,7 @@ theme:
   language: zh
   features:
     - navigation.sections
+    - navigation.indexes 
     - navigation.tracking
     - search.highlight
     - content.code.copy
