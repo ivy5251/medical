@@ -1,0 +1,38 @@
+site_name: 醫學速查筆記
+site_description: 快速、可搜尋的醫學參考手冊
+site_url: https://ivy5251.github.io/medical/
+repo_url: https://github.com/ivy5251/medical
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+    - content.tabs.link
+    - navigation.footer
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - tables
+  - attr_list
+
+plugins:
+  - search
+
+extra:
+  generator: false
+
+nav:
+  - 首頁: index.md
+  - 速查表:
+      - 抗生素速查: infectious/abx-guide.md
+      - 心房顫動: cardiology/af.md
+  - 關於: about.md
